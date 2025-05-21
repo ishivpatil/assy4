@@ -1,3 +1,4 @@
+#task1
 filename = "sample.txt"
 
 try:
@@ -10,7 +11,7 @@ except FileNotFoundError:
 
 
 filename = "output.txt"
-
+#task2
 # Step 1: Take initial input and write to the file
 initial_text = input("Enter text to write to the file: ")
 with open(filename, 'w') as file:
